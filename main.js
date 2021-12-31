@@ -22,7 +22,9 @@ function main() {
         {id: 'l_fav', title: 'Бебрадки'},
         {id: 'l_doc', title: 'Бебрайлы'},
         {id: 'l_ads', title: 'Бебреклама'},
-        {id: 'l_apm', title: 'Бебравление'}
+        {id: 'l_apm', title: 'Бебравление'},
+        {id: 'l_ca', title: 'Бебрафон'},
+        {id: 'l_snowflake', title: 'Бебропад'}
     ];
     replacements.forEach(({ id, title }) => {
         document.querySelector('#' + id + ' ' +
