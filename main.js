@@ -26,8 +26,12 @@ function main() {
         {id: 'l_ca', title: 'Бебрафон'},
     ];
     replacements.forEach(({ id, title }) => {
-        document.querySelector('#' + id + ' ' +
-            spanSelector)
-                .innerText = title;
+        let span = document.querySelector('#' + id + ' ' +
+            spanSelector);
+
+        if (span)
+            span.innerText = title;
+        else
+            console.warn('вбебре: элемент с id', id, 'не был найден');
     });
 }
