@@ -17,7 +17,6 @@ function main() {
         {id: 'l_ap', title: 'Беброчения'},
         {id: 'l_mini_apps', title: 'Мини-беброжения'},
         {id: 'l_vkp', title: 'VK Бебра'},
-        {id: 'l_job', title: 'Бебработа'},
         {id: 'l_mk', title: 'Бебраркет'},
         {id: 'l_fav', title: 'Бебрадки'},
         {id: 'l_doc', title: 'Бебрайлы'},
