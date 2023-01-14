@@ -49,10 +49,8 @@ function main() {
         {id: 'l_ads', title: 'Бебреклама'},
         {id: 'l_apm', title: 'Бебравление'},
         {id: 'l_ca', title: 'Бебрафон'},
-        // TODO: сезонное (Розыгрыш)
-        // {id: 'l_ny2023': ''},
-        // TODO: Стикеры
-        // {id: 'l_stickers': ''},
+        {id: 'l_ny2023', title: 'Розыгрыш бебры'},
+        {id: 'l_stickers', title: 'Бебрики'},
     ];
     replacements.forEach(({ id, title }) => {
         let span = document.querySelector('#' + id + ' ' +
