@@ -49,7 +49,6 @@ function main() {
         {id: 'l_ads', title: 'Бебреклама'},
         {id: 'l_apm', title: 'Бебравление'},
         {id: 'l_ca', title: 'Бебрафон'},
-        {id: 'l_ny2023', title: 'Розыгрыш бебры'},
         {id: 'l_stickers', title: 'Бебрики'},
     ];
     replacements.forEach(({ id, title }) => {
