@@ -29,7 +29,7 @@ function main() {
     else
         console.warn('вбебре: элемента логотипа не был найден');
 
-    const spanSelector = '.left_label.inl_bl';
+    const spanSelector = 'span span';
     const replacements = [
         {id: 'l_pr', title: 'Моя бебра'},
         {id: 'l_nwsf', title: 'Бебрости'},
